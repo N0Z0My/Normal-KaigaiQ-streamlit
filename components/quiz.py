@@ -5,7 +5,7 @@ from utils.logger import setup_logger
 import asyncio
 
 # 問題数の制限を定数として定義
-MAX_QUESTIONS = 20
+MAX_QUESTIONS = 15
 
 def show_quiz_screen(df, logger=None):
     """クイズ画面を表示する関数"""
