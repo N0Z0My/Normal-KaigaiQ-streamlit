@@ -67,7 +67,7 @@ def show_login_screen():
     """ログイン画面の表示"""
     st.title("ログイン")
     with st.form("login_form"):
-        nickname = st.text_input("ニックネームを入力してください")
+        nickname = st.text_input("IDを入力してください")
         submitted = st.form_submit_button("開始")
         
         if submitted and nickname:
